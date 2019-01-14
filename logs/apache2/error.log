@@ -1,0 +1,38 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 12 16:01:44.483709 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 configured -- resuming normal operations
+[Sat Jan 12 16:01:44.484584 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Jan 12 16:12:17.386984 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 12 16:37:30.562960 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 configured -- resuming normal operations
+[Sat Jan 12 16:37:30.567326 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Jan 12 16:57:02.615813 2019] [php7:error] [pid 17] [client 172.18.0.1:33728] script '/var/www/html/d04/ex00/welcome.php' not found or unable to stat, referer: http://localhost:8100/d04/ex00/index.php
+[Sat Jan 12 19:14:36.181609 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 12 19:20:06.811248 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 configured -- resuming normal operations
+[Sat Jan 12 19:20:06.818618 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Jan 12 20:10:24.804349 2019] [php7:error] [pid 20] [client 172.18.0.1:58754] script '/var/www/html/d04/ex01/index.php' not found or unable to stat
+[Sat Jan 12 20:38:44.754816 2019] [php7:error] [pid 17] [client 172.18.0.1:58862] script '/var/www/html/d04/ex02/create.php' not found or unable to stat, referer: http://localhost:8100/d04/ex02/index.html
+[Sat Jan 12 21:08:21.109076 2019] [php7:error] [pid 22] [client 172.18.0.1:58966] script '/var/www/html/d04/ex01/modif.php' not found or unable to stat
+[Sat Jan 12 22:28:20.694769 2019] [autoindex:error] [pid 18] [client 172.18.0.1:59172] AH01276: Cannot serve directory /var/www/html/d04/ex03/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Jan 13 00:06:06.966659 2019] [autoindex:error] [pid 17] [client 172.18.0.1:59184] AH01276: Cannot serve directory /var/www/html/d04/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Jan 13 00:58:29.979435 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jan 13 15:06:17.732204 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 configured -- resuming normal operations
+[Sun Jan 13 15:06:17.732587 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jan 13 18:33:07.133460 2019] [autoindex:error] [pid 16] [client 172.19.0.1:53022] AH01276: Cannot serve directory /var/www/html/kh_correction/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Jan 13 18:33:44.744628 2019] [autoindex:error] [pid 20] [client 172.19.0.1:53080] AH01276: Cannot serve directory /var/www/html/kh_correction/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Jan 13 18:33:48.074449 2019] [autoindex:error] [pid 20] [client 172.19.0.1:53080] AH01276: Cannot serve directory /var/www/html/kh_correction/ex01/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Jan 13 18:33:57.897495 2019] [php7:error] [pid 19] [client 172.19.0.1:53082] script '/var/www/html/kh_correction/ex01/php_info.php' not found or unable to stat
+[Sun Jan 13 18:35:33.571161 2019] [autoindex:error] [pid 17] [client 172.19.0.1:53086] AH01276: Cannot serve directory /var/www/html/kh_correction/ex02/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Jan 13 18:55:39.571420 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jan 13 18:55:42.093841 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 configured -- resuming normal operations
+[Sun Jan 13 18:55:42.094253 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jan 13 20:23:09.769941 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jan 13 21:52:18.360045 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 configured -- resuming normal operations
+[Sun Jan 13 21:52:18.361828 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jan 13 23:00:50.677571 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jan 14 10:30:23.655681 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 configured -- resuming normal operations
+[Mon Jan 14 10:30:23.667243 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
